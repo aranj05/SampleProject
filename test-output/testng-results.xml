@@ -1,17 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="8" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-25T07:16:06 GMT" name="Default suite" finished-at="2024-04-25T07:16:10 GMT" duration-ms="4376">
+  <suite started-at="2024-04-26T06:40:59 GMT" name="SampleSuite" finished-at="2024-04-26T06:40:59 GMT" duration-ms="95">
     <groups>
+      <group name="featureTwo">
+        <method signature="SampleThreeTest.testTwo()[pri:0, instance:testScripts.SampleThreeTest@52102734]" name="testTwo" class="testScripts.SampleThreeTest"/>
+        <method signature="SampleTwoTest.testTwo()[pri:0, instance:testScripts.SampleTwoTest@e1de817]" name="testTwo" class="testScripts.SampleTwoTest"/>
+      </group> <!-- featureTwo -->
+      <group name="featureOne">
+        <method signature="SampleThreeTest.testOne()[pri:0, instance:testScripts.SampleThreeTest@52102734]" name="testOne" class="testScripts.SampleThreeTest"/>
+        <method signature="SampleTwoTest.testOne()[pri:0, instance:testScripts.SampleTwoTest@e1de817]" name="testOne" class="testScripts.SampleTwoTest"/>
+      </group> <!-- featureOne -->
+      <group name="featureThree">
+        <method signature="SampleThreeTest.testThree()[pri:0, instance:testScripts.SampleThreeTest@52102734]" name="testThree" class="testScripts.SampleThreeTest"/>
+        <method signature="SampleTwoTest.testThree()[pri:0, instance:testScripts.SampleTwoTest@e1de817]" name="testThree" class="testScripts.SampleTwoTest"/>
+      </group> <!-- featureThree -->
     </groups>
-    <test started-at="2024-04-25T07:16:06 GMT" name="Default test" finished-at="2024-04-25T07:16:10 GMT" duration-ms="4376">
-      <class name="testScripts.GooglePageTest">
-        <test-method signature="javSearchTest()[pri:0, instance:testScripts.GooglePageTest@2cdd0d4b]" started-at="2024-04-25T07:16:06 GMT" name="javSearchTest" finished-at="2024-04-25T07:16:10 GMT" duration-ms="4325" status="PASS">
+    <test started-at="2024-04-26T06:40:59 GMT" name="ModuleOneTest" finished-at="2024-04-26T06:40:59 GMT" duration-ms="95">
+      <class name="testScripts.SampleThreeTest">
+        <test-method signature="testOne()[pri:0, instance:testScripts.SampleThreeTest@52102734]" started-at="2024-04-26T06:40:59 GMT" name="testOne" finished-at="2024-04-26T06:40:59 GMT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- javSearchTest -->
-      </class> <!-- testScripts.GooglePageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- testOne -->
+        <test-method signature="testThree()[pri:0, instance:testScripts.SampleThreeTest@52102734]" started-at="2024-04-26T06:40:59 GMT" name="testThree" finished-at="2024-04-26T06:40:59 GMT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThree -->
+        <test-method signature="testTwo()[pri:0, instance:testScripts.SampleThreeTest@52102734]" started-at="2024-04-26T06:40:59 GMT" name="testTwo" finished-at="2024-04-26T06:40:59 GMT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+      </class> <!-- testScripts.SampleThreeTest -->
+      <class name="testScripts.SampleTwoTest">
+        <test-method signature="testOne()[pri:0, instance:testScripts.SampleTwoTest@e1de817]" started-at="2024-04-26T06:40:59 GMT" name="testOne" finished-at="2024-04-26T06:40:59 GMT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method signature="testThree()[pri:0, instance:testScripts.SampleTwoTest@e1de817]" started-at="2024-04-26T06:40:59 GMT" name="testThree" finished-at="2024-04-26T06:40:59 GMT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThree -->
+        <test-method signature="testTwo()[pri:0, instance:testScripts.SampleTwoTest@e1de817]" started-at="2024-04-26T06:40:59 GMT" name="testTwo" finished-at="2024-04-26T06:40:59 GMT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+      </class> <!-- testScripts.SampleTwoTest -->
+    </test> <!-- ModuleOneTest -->
+  </suite> <!-- SampleSuite -->
 </testng-results>
