@@ -5,16 +5,19 @@ import org.testng.annotations.Test;
 public class SampleTwo {
 	@Test
 	  public void testOne() {
-		  System.out.println("This is TestOne- SampleTwo");
+		long id= Thread.currentThread().getId();
+		  System.out.println("This is TestOne- SampleTwo.." +id);
 	  }
 	  
 	  @Test
 	  public void testTwo() {
-		  System.out.println("This is TestOne- SampleTwo");
+		  long id= Thread.currentThread().getId();
+		  System.out.println("This is TestTwo- SampleTwo.." +id);
 	  }
 	  
 	  @Test
 	  public void testThree() {
-		  System.out.println("This is TestOne- SampleTwo");
+		  long id= Thread.currentThread().getId();
+		  System.out.println("This is TestThree- SampleTwo.." +id);
 	  }
 }
