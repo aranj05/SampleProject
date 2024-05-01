@@ -1,0 +1,13 @@
+{
+	"customerData": [
+	{
+	 	"Name": "Tom Smith",
+	 	"Country": "india",
+	 	"City": "Pune",
+	 	"Credit card": "1234 5678 0423 6145",
+	 	"Month": "04",
+	 	"Year": "2026"
+	}
+	
+  ]
+}
