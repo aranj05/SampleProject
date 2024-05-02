@@ -1,61 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-01T05:53:00 GMT" name="Default suite" finished-at="2024-05-01T05:53:00 GMT" duration-ms="72">
+  <suite started-at="2024-05-02T05:35:20 GMT" name="Default suite" finished-at="2024-05-02T05:35:26 GMT" duration-ms="5611">
     <groups>
     </groups>
-    <test started-at="2024-05-01T05:53:00 GMT" name="Default test" finished-at="2024-05-01T05:53:00 GMT" duration-ms="72">
-      <class name="testScripts.Assignment2">
-        <test-method is-config="true" signature="initSetup()[pri:0, instance:testScripts.Assignment2@79da8dc5]" started-at="2024-05-01T05:53:00 GMT" name="initSetup" finished-at="2024-05-01T05:53:00 GMT" duration-ms="11" status="PASS">
+    <test started-at="2024-05-02T05:35:20 GMT" name="Default test" finished-at="2024-05-02T05:35:26 GMT" duration-ms="5611">
+      <class name="testScripts.CDPTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testScripts.CDPTest@4cc8eb05]" started-at="2024-05-02T05:35:20 GMT" name="setup" finished-at="2024-05-02T05:35:23 GMT" duration-ms="3013" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initSetup -->
-        <test-method signature="addItem()[pri:0, instance:testScripts.Assignment2@79da8dc5]" started-at="2024-05-01T05:53:00 GMT" name="addItem" data-provider="logindata" finished-at="2024-05-01T05:53:00 GMT" duration-ms="22" status="FAIL">
-          <exception class="org.testng.internal.reflect.MethodMatcherException">
-            <message>
-              <![CDATA[
-[public void testScripts.Assignment2.addItem()] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
-Data provider mismatch
-Method: addItem([])
-Arguments: [(java.lang.String) Tom Smith,(java.lang.String) india,(java.lang.String) Pune,(java.lang.String) 1234 5678 0423 6145,(java.lang.String) 04,(java.lang.String) 2026]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
-[public void testScripts.Assignment2.addItem()] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
-Data provider mismatch
-Method: addItem([])
-Arguments: [(java.lang.String) Tom Smith,(java.lang.String) india,(java.lang.String) Pune,(java.lang.String) 1234 5678 0423 6145,(java.lang.String) 04,(java.lang.String) 2026]
-at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:43)
-at org.testng.internal.Parameters.injectParameters(Parameters.java:905)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:34)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+        </test-method> <!-- setup -->
+        <test-method signature="captureConsoleLogTest()[pri:0, instance:testScripts.CDPTest@4cc8eb05]" started-at="2024-05-02T05:35:23 GMT" name="captureConsoleLogTest" finished-at="2024-05-02T05:35:26 GMT" duration-ms="2546" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addItem -->
-      </class> <!-- testScripts.Assignment2 -->
+        </test-method> <!-- captureConsoleLogTest -->
+      </class> <!-- testScripts.CDPTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
